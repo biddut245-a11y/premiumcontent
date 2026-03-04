@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Verification - Access Required</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .v-box {
+            background: #111;
+            padding: 50px 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            max-width: 450px;
+            width: 90%;
+        }
+        .warning {
+            color: #ff4757;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        h1 { font-size: 26px; margin: 10px 0; }
+        p { color: #ccc; font-size: 16px; margin-bottom: 40px; }
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .btn {
+            flex: 1;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn-yes {
+            background-color: #e84393;
+            color: white;
+            box-shadow: 0 4px 15px rgba(232, 67, 147, 0.4);
+        }
+        .btn-yes:hover { background-color: #fd79a8; }
+        .btn-no {
+            background-color: transparent;
+            color: #777;
+            border: 1px solid #444;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 11px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="v-box">
+    <div class="warning">Warning: 18+ Only</div>
+    <h1>Are you over 18?</h1>
+    <p>This content is age-restricted and requires verification to continue.</p>
+    
+    <div class="btn-group">
+        <a href="YOUR_ADSTERRA_DIRECT_LINK_HERE" class="btn btn-yes">YES, I AM 18+</a>
+        
+        <a href="https://google.com" class="btn btn-no">NO</a>
+    </div>
+
+    <div class="footer">
+        By clicking "YES", you agree to our Terms of Service and Privacy Policy.
+    </div>
+</div>
+
+</body>
+</html>
